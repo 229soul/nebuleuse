@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: "Poor-Story" ;
+    src: url(./assets/font/PoorStory-Regular.ttf);
+}
+a{
+    color: white;
+}
+body{
+    background: url(./assets/images/bg0jpg.jpg) center;
+    padding: 100px;
+    z-index: 4;
+    color: white;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-family: "Poor-Story";
+}
+h2{
+    color: #dc52ff;
+    font-style: italic;
+    text-decoration: underline;
+}
+p{
+    font-weight: bold;
+    font-size: large;
+    
+}
+ figure{
+    padding: 0 auto ;
+    margin: 0 auto;
+    box-shadow: 0px -1px 9px 8px #8d72a5c4
+
+}
+
+li{
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+th{
+    border: 1px solid black;
+    padding: 5px;
+       
+}

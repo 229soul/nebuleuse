@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Comment observer les nébuleuses</title>
+	<meta charset="utf-8"  />
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<a href="./index.html">Page d'Accueil</a>
+	
+	<h1>Comment observer les nébuleuses</h1>
+
+		<h2>à l'oeil nu</h2>
+
+			<p>
+				Comme dit dans <a href="./page1.html">l'exemple de la nébuleuse d'Orion</a>, certains nuages sont assez brillants pour pouvoir être
+				observés à l'oeil nu, ou avec une simple paire de jumelles. Pour ce faire, c'est très simple. Il faudra :
+			</p>
+
+			<ul>
+				<li>Avoir un ciel dégagé (et oui, c'est pas évident)</li>
+				<li>S'éloigner des grandes agglomérations, pour éviter la pollution lumineuse</li>
+				<li>Si possible, prendre de l'altitude, pour limite la diffraction de l'atmosphère</li>
+				<li>Savoir où regarder. On trouve une multitudes de ressources sur internet pour des recommandations</li>
+			</ul>
+			
+			<p>
+				Certaines sont très faciles à voir et à trouver. (La Galaxie d'andromède occupe un pan du ciel équivalent à 6 pleines lunes ! Difficile
+				de la rater.) Alors à vos jumelles.
+			</p>
+		
+		<h2>à la lunette astronomique</h2>
+
+			<p>
+				Avec une petite lunette, il est déjà bien plus aisé de regarder les objets du ciel profond. Ainsi, les nébuleuses pourront apparaitre sous
+				leur plus bel effet, sans trop d'efforts. Malgré tout, les petits téléscope ont généralement deux défauts : ils ont une magnification trop 
+				élevée, et ils n'ont généralement pas de dispositif de suivi. En effet, comme ces appareils sont conçus pour des observations planétaires, 
+				Il est d'usage de fournir un haut niveau de grossissement. Or, pour des cibles plus larges telles que M31 ou M42, cela pose vite probleme.
+				Il sera aussi nécéssaire de recentrer la cible dans la lunette, à cause de la vitesse de rotation de la Terre.
+			</p>
+
+		<h2>avec un téléscope équatorial</h2>
+			
+			<p>
+				Ici, c'est un type de téléscope bien précis dont on parle : la monture possède 4 axe pour pouvoir s'aligner avec l'axe de rotation de la Terre.
+				En combinaisons avec une paire de moteurs, la monture peut compenser en direct la rotation de la Terre, afin d'etre parfaitement aligné sur 
+				la cible en toute circonstance. Ce genre de monture permet aussi de fixer des caméras astronomiques (ou des appareils traditionnels, dans une 
+				moindre mesure) afin de capturer le signal lumineux pendant des heures.
+				L'inconvenient, c'est que ce genre de téléscope est très onéreux, avec des prix variants de 600€ à 6000€, pour le téléscope, et la caméra.
+				L'avantage, c'est qu'on peut mettre des <em>filtres à bande étroite</em> afin de modifier le spectre d'emission de l'objet ciblé. Pour résumer
+				Le principe est de remplacer les canaux rouges, vert et bleus, par des signaux correspondants aux gaz principaux des nébuleuses.
+				Ainsi, on trouve Trois filtres :
+			</p>
+
+			<ul>
+				<li>Le filtre Hydrogène alpha (abrégé Hα)</li>
+				<li>Le filtre Soufre II (abrégé SII)</li>
+				<li>Le filtre Oxygène III (abrégé OIII)</li>
+			</ul>
+
+			<p>
+				Il existe d'autres filtres, mais ces 3 ci se complètent et peuvent former une gamme colorimétrique complète à eux seuls. On appelle cette gamme HSO.
+				Ils sont assignés à une matrice de Bayer (matrice utilisée dans les caméras pour restituer la couleur à partir d'un signal monochrome)
+				avec certains coefficients, pour faire ressortir les gaz d'une maniere bien précise. 
+			</p>
+
+			<figure>
+
+				<table border="10">
+					<tr>
+						<th></th>
+						
+						<th>R</th>
+						<th>G</th>
+						<th>B</th>
+					</tr>
+					<tr>
+						<th>Hα</th>
+						<td>0.3</td>
+						<td>0.6</td>
+						<td>0.1</td>
+					</tr>
+					<tr>
+						<th>SII</th>
+						<td>0.7</td>
+						<td>0.2</td>
+						<td>0.1</td>
+					</tr>
+					<tr>
+						<th>OIII</th>
+						<td>0.1</td>
+						<td>0.1</td>
+						<td>0.8</td>
+					</tr>
+				</table>
+				<figcaption>matrice de passage du spectre RGB au spectre HSO</figcaption>
+
+			</figure>
+
+			<p>
+				Voici une petite comparaison :
+			</p>
+
+			<figure>
+				<img src="./assets/images/Rosette_RGB_Antonio_G_Flores.png" title="Nébuleuse de la Roseette, au spectre RGB">
+				<figcaption>Nébuleuse de la Rosette, au spectre RGB, par Antonio G Flores, <a href="https://astrob.in/4xyi65/0/">astrobin.com</a></figcaption>
+			</figure>
+
+			<figure>
+				<img src="./assets/images/rosette.jpg" title="Nébuleuse de la Rosette, au spectre HSO">
+				<figcaption>Nébuleuse de la Rosette, au spectre HSO, par Andrew Burwell, <a href="https://astrob.in/xdn55c/0/">astrobin.com</a></figcaption>
+			</figure>
+</body>
+</html>
